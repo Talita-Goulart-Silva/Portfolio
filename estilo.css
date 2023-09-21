@@ -1,0 +1,232 @@
+:root {
+    --color-primary: #242323;
+    --color-secundary: #e3ede3;
+    --color-destaque: #21a021;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.topo {
+    background-color: black;
+    padding: 1em 3em;
+}
+
+.borda {
+    border-left: .2em solid green;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2825, 128, 0, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: .1em solid green;
+}
+
+.nav-link {
+    color: green;
+    font-size: 1.1em;
+}
+
+
+.nome {
+    color: var(--color-secundary);
+    font-family: 'Oxanium', cursive;
+    margin-top: 3em;
+    font-size: 2.5em;
+}
+
+span {
+    color: var(--color-destaque);
+}
+
+p {
+    color: var(--color-secundary);
+    font-size: 1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Sobre {
+    background: linear-gradient(to bottom, black, green);
+    padding-top: 8em;
+    padding-bottom: 2em;
+}
+
+.img-sobre {
+    width: 20em;
+    height: 20em;
+    margin-top: 10em;
+}
+
+#Jornada {
+    background-color: var(--color-primary);
+    padding-top: 9em;
+    padding-bottom: 2em;
+}
+
+
+
+.calendario {
+    width: 15em;
+    height: 15em;
+    margin-top: 10em;
+    margin-bottom: 1.5em;
+}
+
+
+
+.tamanho-aviao {
+    width: 2.5em;
+
+}
+
+#Desafios {
+    background-color: var(--color-primary);
+    padding-top: 8.4em;
+    padding-bottom: 2em;
+}
+
+.img-desafios {
+    width: 15em;
+    height: 15em;
+    margin-top: 9em;
+    margin-bottom: 1.5em;
+}
+
+
+
+#Conquistas {
+    background-color: var(--color-primary);
+}
+
+.img-conquistas {
+    width: 15em;
+    height: 15em;
+    margin-top: 9em;
+}
+
+
+.cor-conquistas {
+    color: var(--color-destaque);
+    font-family: 'Oxanium', cursive;
+    font-size: 1.8em;
+}
+
+
+#Aprendizados {
+    background-color: var(--color-primary);
+    padding-top: 8em;
+}
+
+.card {
+    width: 18em;
+    height: 35em;
+    background-color: black;
+}
+
+.cards-responsivos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    color: var(--color-destaque);
+    font-family: 'Oxanium', cursive;
+    text-align: center;
+}
+
+
+.card-text {
+    color: var(--color-secundary);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.card-img-top {
+    width: 18em;
+    height: 15em;
+}
+
+
+
+#Projetos {
+    background-color: var(--color-primary);
+    padding-top: 9em;
+}
+
+
+
+.h3 {
+    color: var(--color-secundary);
+    font-size: 1.3em;  
+}
+
+.h2-cor-projetos {
+    color: var(--color-destaque);
+    font-family: 'Oxanium', cursive;
+}
+
+.tamanho-video {
+    width: 20em;
+    height: 20em;
+}
+
+.txt-videos {
+    color: var(--color-secundary);
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 2em;
+}
+
+#Depoimento {
+    background-color: var(--color-primary);
+    padding-top: 9em;
+}
+
+#Contatos {
+    background-color: var(--color-destaque);
+    padding-top: 2em;
+    text-align: center;
+    min-height: 0;
+    padding-bottom: 1em;
+}
+
+.tamanho {
+    width: 2.5em;
+}
+
+.logos_footer {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.tgs {
+    padding-top: 2em;
+}
+
+h1 {
+    font-size: 1.5em;   
+    color: var(--color-destaque);
+    font-family: 'Oxanium', cursive;
+    text-align: center;
+    padding: 1em;
+}
+
+span {
+    color: var(--color-secundary);
+}
